@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+{% include head.html %}
+
+<body>
+<div class="wrapper">
+
+<header>
+<h1 id="header-title"><a href="{{ '/' | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+
+<p>{{ site.tagline }}</p>
+
+<ul class="menu">
+<li><a href="/ebook/">Siranoosh, My Child (online version)</a></li>
+<li><a href="/about/">About</a></li>
+<li><a href="{{ site.github.repository_url }}">Repository</a></li>
+</ul>
+
+{%- if site.logo %}
+<a href="{{ '/' | absolute_url }}"><img src="{{ site.logo | relative_url }}" alt="Logo" /></a>
+{%- endif %}
+
+{%- comment -%}
+{%- if site.github.is_project_page %}
+<p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
+{%- endif %}
+{%- endcomment -%}
+
+{%- if site.github.is_user_page %}
+<p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
+{%- endif %}
+
+</header>
+
+<section>
+{{ content }}
+</section>
+
+<footer>
+</footer>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+# Site Settings
+
+title: "Tavookjian.com"
+domain: www.tavookjian.com
+description: >
+  Siranoosh Lazian Tavookjian’s journey from her native Tokat to Fresno,
+  California is a remarkable story of survival and the will to persevere.
+  The objective of the Turkish government to eliminate the Armenians from
+  Asia Minor was accomplished with the utmost cruelty and savagery.
+  Siranoosh was one of the few who survived the massacres and fortunate
+  enough to arrive in the United States after years of privation and
+  struggle.  This story reaffirms the love of an Armenian mother for her
+  child and the faith which she had for the Armenian Apostolic Church.
+      Narrated in Armenian by Siranoosh Tavookjian
+      English Translation by Bob Der Mugredechian
+      November 22, 1984
+author: Nathan Garabedian
+email: ngara23@gmail.com
+theme: jekyll-theme-minimal
+
+github_username: ngara
+
+encoding: UTF-8
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from

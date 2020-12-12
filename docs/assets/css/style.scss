@@ -1,0 +1,24 @@
+---
+---
+
+@import "jekyll-theme-minimal";
+
+
+ul.menu {
+  width: 250px;
+  border: none;
+  padding-top: 5px;
+  }
+
+ul.menu li {
+  clear: both;
+  border: none;
+  width: 250px;
+  background-color: #efefff;
+  list-style: none; }
+
+ul.menu li.optional {
+  border: none;
+  background-color: #efffff;
+  display: none; }
+
