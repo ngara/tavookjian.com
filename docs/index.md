@@ -15,5 +15,5 @@ permalink: /
 * It will soon be available on Nook as well
 
 ![](assets/img/SiranooshMyChild-nathan1.jpeg)
-*Siranoosh with two of her grandchildren: Rebecca and Nathan*
+*Siranoosh with two of her great-grandchildren: Rebecca and Nathan*
 
