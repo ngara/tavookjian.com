@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: ebook
 heading: Siranoosh, My Child - eBook
 permalink: /ebook/
 ---
